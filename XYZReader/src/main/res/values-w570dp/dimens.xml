@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- detail -->
+    <dimen name="content_lin_layout_width">570dp</dimen>
+    <dimen name="content_lin_layout_elevation">4dp</dimen>
+    <dimen name="content_lin_layout_top_margin">250dp</dimen>
+</resources>

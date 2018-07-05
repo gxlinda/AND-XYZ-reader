@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.xyzreader.ui.ScaleToTwoThirdImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:transitionName="@string/transition_photo" />
+
+        <LinearLayout
+            android:layout_width="@dimen/content_lin_layout_width"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="@dimen/content_lin_layout_elevation"
+            android:layout_marginTop="@dimen/content_lin_layout_top_margin"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/bg_light">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/content_lin_layout_inner_padding"
+                android:paddingEnd="@dimen/content_lin_layout_inner_padding">
+
+                <TextView
+                    android:id="@+id/article_title"
+                    style="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/detail_title_text_size"
+                    android:textStyle="bold"
+                    tools:text="Let's try a very long Title, how it is shown"
+                    android:paddingTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/article_byline"
+                    style="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    tools:text="by Thomas" />
+
+                <TextView
+                    android:id="@+id/article_date"
+                    style="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#b7ffffff"
+                    tools:text="2010.FEB 03."
+                    android:paddingBottom="16dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/article_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/content_lin_layout_inner_padding"
+                android:layout_marginRight="@dimen/content_lin_layout_inner_padding"
+                android:paddingBottom="@dimen/detail_body_bottom_margin"
+                android:paddingTop="16dp"
+                android:textColorLink="@color/colorAccent"
+                android:lineSpacingMultiplier="1.2"
+                android:textSize="@dimen/detail_body_text_size"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</ScrollView>

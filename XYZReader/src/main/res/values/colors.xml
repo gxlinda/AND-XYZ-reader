@@ -1,0 +1,8 @@
+<resources>
+    <color name="photo_placeholder">#ccc</color>
+    <color name="colorPrimary">#fd5621</color>
+    <color name="colorPrimaryDark">#dc3e0c</color>
+    <color name="colorAccent">#09b9e1</color>
+    <color name="bg_light">#fff8f6</color>
+    <color name="bg_dark">#4b4b4b</color>
+</resources>
