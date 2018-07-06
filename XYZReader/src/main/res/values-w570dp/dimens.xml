@@ -3,5 +3,5 @@
     <!-- detail -->
     <dimen name="content_lin_layout_width">570dp</dimen>
     <dimen name="content_lin_layout_elevation">4dp</dimen>
-    <dimen name="content_lin_layout_top_margin">250dp</dimen>
+    <dimen name="content_image_height">200dp</dimen>
 </resources>

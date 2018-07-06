@@ -14,9 +14,11 @@
     <dimen name="detail_body_bottom_margin">16dp</dimen>
 
     <dimen name="custom_match_parent">-1px</dimen>
+    <dimen name="custom_wrap_content">-2px</dimen>
     <dimen name="content_lin_layout_width">@dimen/custom_match_parent</dimen>
+    <dimen name="content_image_height">@dimen/custom_wrap_content</dimen>
     <dimen name="content_lin_layout_elevation">0dp</dimen>
-    <dimen name="content_lin_layout_top_margin">200dp</dimen>
+    <dimen name="content_lin_layout_top_margin">0dp</dimen>
     <dimen name="content_lin_layout_inner_padding">16dp</dimen>
 
 </resources>
